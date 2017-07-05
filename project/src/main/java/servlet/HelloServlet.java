@@ -12,8 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet(
         name = "MyServlet",
         urlPatterns = {"/hello"}
-		urlPatterns = {"/motto"}
-		
+	
     )
 public class HelloServlet extends HttpServlet {
 
